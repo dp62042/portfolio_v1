@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b12;
+  --fg: #e5e7eb;
+}
+
+html, body, :root {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(60rem 60rem at 10% -10%, rgba(79,70,229,0.15), transparent),
+              radial-gradient(50rem 50rem at 90% 10%, rgba(16,185,129,0.15), transparent),
+              var(--bg);
+  color: var(--fg);
+  scroll-behavior: smooth;
+}
+
+.section {
+  @apply py-24 md:py-32;
+}
+
+.card {
+  @apply rounded-2xl bg-white/5 backdrop-blur border border-white/10 shadow-lg p-6;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-medium border border-white/10 bg-white/10 hover:bg-white/20 transition;
+}
+
+.link {
+  @apply underline decoration-dotted underline-offset-4 hover:text-brand-300;
+}
