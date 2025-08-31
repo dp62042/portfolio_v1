@@ -23,7 +23,6 @@
     "three": "0.160.1"
   },
   "devDependencies": {
-    "@next/swc-win32-x64-msvc": "^15.5.2",
     "@types/node": "20.14.15",
     "@types/react": "18.3.3",
     "autoprefixer": "10.4.20",
