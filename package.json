@@ -7,8 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "npm rebuild --platform=linux --arch=x64"
+    "lint": "next lint"
   },
   "optionalDependencies": {},
   "dependencies": {
