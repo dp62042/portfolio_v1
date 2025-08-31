@@ -8,7 +8,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npx --no next telemetry disable"
+    "postinstall": "npm rebuild --platform=linux --arch=x64"
+  },
+  "optionalDependencies": {
+    "@next/swc-win32-x64-msvc": null,
+    "@next/swc-darwin-x64-msvc": null
   },
   "dependencies": {
     "@react-three/drei": "9.105.6",
