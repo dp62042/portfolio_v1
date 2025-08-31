@@ -250,15 +250,21 @@ export default function HomePage() {
             },
             {
               title: 'SparkAI',
-              desc: 'AI-powered platform for generating text using  APIs. Built with React.js, Tailwind CSS,User Auth, and Framer Motion for a sleek user experience.',
+              desc: 'AI-powered platform for generating text using APIs. Built with React.js, Tailwind CSS, User Auth, and Framer Motion for a sleek user experience.',
               github: 'https://github.com/dp62042/sparkAI.git',
               live: 'https://campustalk.vercel.app',
             },
             {
               title: 'Campus Post',
-              desc: 'Community blog platform for sharing knowledge across domains. using technologies like HTML,Bootstrap, Node.js, Express,Passport,Cloudinary and MongoDB.',
+              desc: 'Community blog platform for sharing knowledge across domains using technologies like HTML, Bootstrap, Node.js, Express, Passport, Cloudinary and MongoDB.',
               github: 'https://github.com/dp62042/campusPost.git',
               live: 'https://campuspost.onrender.com/posts',
+            },
+            {
+              title: 'Hostro',
+              desc: 'PG & Co-living made simple — search, book, pay, and live better. Built with Next.js, React, Node.js, MongoDB, Mongoose, JWT, bcrypt.js, ImageKit, Tailwind CSS, and Framer Motion.',
+              github: 'https://github.com/dp62042/hostro_v2.git',
+              live: 'https://hostro.vercel.app',
             },
           ].map((p, i) => (
             <motion.div
@@ -358,6 +364,7 @@ export default function HomePage() {
                   <label className="block text-sm mb-1">Name</label>
                   <input
                     name="name"
+                    placeholder='e.g. "Dharmendra Pandit"'
                     required
                     className="w-full rounded-xl bg-white/10 border border-white/10 px-4 py-3 outline-none text-sm sm:text-base"
                   />
@@ -366,6 +373,7 @@ export default function HomePage() {
                   <label className="block text-sm mb-1">Email</label>
                   <input
                     type="email"
+                    placeholder="e.g. dharmendra193728@gmail.com"
                     name="email"
                     required
                     className="w-full rounded-xl bg-white/10 border border-white/10 px-4 py-3 outline-none text-sm sm:text-base"
@@ -375,6 +383,7 @@ export default function HomePage() {
                   <label className="block text-sm mb-1">Message</label>
                   <textarea
                     name="message"
+                    placeholder="Write your message here..."
                     rows={4}
                     required
                     className="w-full rounded-xl bg-white/10 border border-white/10 px-4 py-3 outline-none text-sm sm:text-base"
