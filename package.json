@@ -10,10 +10,7 @@
     "lint": "next lint",
     "postinstall": "npm rebuild --platform=linux --arch=x64"
   },
-  "optionalDependencies": {
-    "@next/swc-win32-x64-msvc": null,
-    "@next/swc-darwin-x64-msvc": null
-  },
+  "optionalDependencies": {},
   "dependencies": {
     "@react-three/drei": "9.105.6",
     "@react-three/fiber": "8.16.1",
