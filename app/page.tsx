@@ -266,6 +266,12 @@ export default function HomePage() {
               github: 'https://github.com/dp62042/hostro_v2.git',
               live: 'https://hostro.vercel.app',
             },
+            {
+              title: 'Hostro',
+              desc: 'PG & Co-living made simple — search, book, pay, and live better. Built with Next.js, React, Node.js, MongoDB, Mongoose, JWT, bcrypt.js, ImageKit, Tailwind CSS, and Framer Motion.',
+              github: 'https://github.com/dp62042/kids-store',
+              live: 'https://toystorev1.netlify.app/login',
+            },
           ].map((p, i) => (
             <motion.div
               whileHover={{ y: -4 }}
