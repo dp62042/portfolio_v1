@@ -87,7 +87,7 @@ export default function HomePage() {
           <div className="md:col-span-1">
             <div className="card flex flex-col items-center text-center">
               <Image
-                src="/avatar.jpg"
+                src="/avatar.png"
                 width={120}
                 height={80}
                 alt="Avatar"
