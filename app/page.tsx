@@ -267,8 +267,8 @@ export default function HomePage() {
               live: 'https://hostro.vercel.app',
             },
             {
-              title: 'Hostro',
-              desc: 'PG & Co-living made simple — search, book, pay, and live better. Built with Next.js, React, Node.js, MongoDB, Mongoose, JWT, bcrypt.js, ImageKit, Tailwind CSS, and Framer Motion.',
+              title: 'Kids Store',
+              desc: 'A full-stack e-commerce platform for kids products, built with a modern React frontend and a robust Express.js & MongoDB backend. It features user authentication, a persistent shopping cart, and a secure, responsive shopping experience',
               github: 'https://github.com/dp62042/kids-store',
               live: 'https://toystorev1.netlify.app/login',
             },
